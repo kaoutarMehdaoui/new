@@ -1,0 +1,19 @@
+
+<input type="button" [routerLink]="['add']" value="add">
+<table>
+    <tr>
+        <th>ID</th>
+        <th>username</th>
+        <th>email</th>
+        <th>actions</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{ user._id }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.email }}</td>
+        <td><input type="button" [routerLink]="['update', user._id]" value="edit"/> - <button (click)="delete(user._id)"> delete</button></td>
+    </tr>
+</table>
+<ul>
+    <li (click)="getpage(n)" *ngFor="let n of pages">{{n}}</li>
+</ul>
