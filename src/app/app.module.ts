@@ -8,13 +8,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { AddComponent } from './components/users/add/add.component';
 import { FormsModule } from '@angular/forms';
 import { UpdateComponent } from './components/users/update/update.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
     AddComponent,
-    UpdateComponent
+    UpdateComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

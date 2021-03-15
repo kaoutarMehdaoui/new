@@ -1,18 +1,19 @@
-<section class="sample-app-content">
-    <h1>Template-driven Form Example (with bi-directional data binding):</h1>
+
+<div class="row">
+    <div class="col-md-6"><h3>Ajoute Client</h3></div>
     <form #myForm="ngForm" (ngSubmit)="create()">
-        <p>
-            <label>user name:</label>
-            <input type="text"  name="username"
-                [(ngModel)]="user.username" required>
-        </p>
-        <p>
-            <label>email :</label>
-            <input type="text" name="email"
-                [(ngModel)]="user.email" required>
-        </p>
-        <p>
-            <button type="submit">Submit</button>
-        </p>
-    </form>
-</section>
+    <div class="col-md-6">
+        <label>user name:</label>
+        <input type="text"  name="username"
+            [(ngModel)]="user.username" required></div>
+    <div class="col-md-6">
+        <label>email :</label>
+        <input type="text" name="email"
+            [(ngModel)]="user.email" required>
+    </div>
+    <div class="col-md-6">
+        
+    <button class="btn btn-success "><i class="fa fa-plus" > Ajoute </i></button> 
+    </div>
+</form>
+</div>

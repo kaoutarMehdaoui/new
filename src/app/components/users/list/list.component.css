@@ -1,0 +1,32 @@
+thead{
+background-color: rgba(29, 197, 51, 0.993);
+}
+.btn{
+    margin-top: 15px;
+    padding: auto;
+    margin-bottom: 15px;
+    
+}
+th{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+td{
+    text-align: center;
+}
+.fa-forward{
+    margin-top: 12px;
+    margin-left: 50%;
+    color: darkgreen;
+    text-align: center;
+}
+.fa-user-times{
+    color: tomato;
+    font-size: 30px;
+}
+.fa-id-badge{
+    color: orange;
+    font-size: 30px;
+}
